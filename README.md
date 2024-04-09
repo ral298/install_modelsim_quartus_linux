@@ -4,7 +4,6 @@ Solo copia y pega
 
 ```ruby
 cd
-git clone https://github.com/ral298/SKYWATER130-LIB-corner-custom.git
-cd ./SKYWATER130-LIB-corner-custom
-dash ./install_pyspice.sh
+https://github.com/ral298/install_modelsim_quartus_linux.git
+dash ./install_libs_modelsim_altera.sh
 ```
