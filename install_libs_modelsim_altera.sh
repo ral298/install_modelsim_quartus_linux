@@ -1,4 +1,5 @@
 sudo dpkg --add-architecture i386
+sudo add-apt-repository ppa:linuxuprising/libpng12
 sudo apt update
 sudo apt install build-essential
     sudo apt install gcc-multilib g++-multilib lib32z1 \
@@ -7,8 +8,7 @@ sudo apt install build-essential
     libgtk-3-0:i386 libcanberra0:i386 libice6:i386 libsm6:i386 \
     libncurses5:i386 zlib1g:i386 libx11-6:i386 libxau6:i386 \
     libxdmcp6:i386 libxext6:i386 libxft2:i386 libxrender1:i386
-sudo add-apt-repository ppa:linuxuprising/libpng12
-sudo apt update
+
 sudo apt install libpng12-0
 cd
 
