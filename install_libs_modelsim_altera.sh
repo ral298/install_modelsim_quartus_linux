@@ -10,6 +10,12 @@ sudo apt install build-essential
     libxdmcp6:i386 libxext6:i386 libxft2:i386 libxrender1:i386
 
 sudo apt install libpng12-0
+sudo apt-get build-dep -a i386 libfreetype6
+
+tar -xjvf freetype-2.4.12.tar.bz2
+cd freetype-2.4.12
+./configure --build=i686-pc-linux-gnu "CFLAGS=-m32" "CXXFLAGS=-m32" "LDFLAGS=-m32"
+make -j8
 cd
 
 TEXTO="# USB-Blaster
