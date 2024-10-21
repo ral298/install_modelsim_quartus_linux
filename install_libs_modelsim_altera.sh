@@ -20,6 +20,7 @@ tar -xjvf freetype-2.4.12.tar.bz2
 cd freetype-2.4.12
 ./configure --build=i686-pc-linux-gnu "CFLAGS=-m32" "CXXFLAGS=-m32" "LDFLAGS=-m32"
 make -j8
+sudo make install
 cd
 
 TEXTO="# USB-Blaster
