@@ -14,6 +14,8 @@ sudo apt install make
 sudo apt install libpng12-0
 sudo apt-get build-dep -a i386 libfreetype6
 
+wget https://master.dl.sourceforge.net/project/freetype/freetype2/2.4.12/freetype-2.4.12.tar.bz2?viasf=1
+
 tar -xjvf freetype-2.4.12.tar.bz2
 cd freetype-2.4.12
 ./configure --build=i686-pc-linux-gnu "CFLAGS=-m32" "CXXFLAGS=-m32" "LDFLAGS=-m32"
