@@ -1,3 +1,8 @@
+
+
+UBICACION_TEMPORAL="99-usbftdi.rules"
+sudo cp "$UBICACION_TEMPORAL" "/etc/udev/rules.d/99-usbftdi.rules"
+
 # Define la ubicación y el nombre del archivo temporal
 UBICACION_TEMPORAL="./92-usbblaster.rules"
 
